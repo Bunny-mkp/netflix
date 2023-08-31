@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e50914;
+  padding: 10px 20px;
+}
+
+.logo, .transmission, .lupe, .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.serie {
+ width: 410px;
+ height: 510px;
+ position: relative;
+ bottom: 190px;
+ z-index: -1;
+ opacity: 80%;
+}
+
+h1 {
+ font-size: 76px;
+ font-family: cursive;
+ position: relative;
+ margin: 6px;
+ bottom: 8px;
+}
+
+p {
+  font-size: 17px;
+  position: relative;
+  color: white;
+  margin: 8px;
+  bottom: 30px;
+}
+
+h6 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 280px;
+  font-size: 22px;
+  color: white;
+}
+
+button {
+  width: 110px;
+  height: 35px;
+  position: relative;
+  top: 250px ;
+  left: 152px;
+}
+
+
+h5 {
+  font-size: 24px;
+  position: relative;
+  bottom: 215px;
+  font-family: Arial;
+}
+
+div-container{
+  overflow: hidden;
+}
+
+div {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  bottom: 212px;
+}
+
+div img {
+  height: 210px ;
+  width: 130px ;
+}

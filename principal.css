@@ -1,0 +1,194 @@
+* {
+  margin: 0 ; 
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  position: relative;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo, .transmission, .lupe, .icon {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+
+.transmission {
+  left: 270px;
+  top: 16px;
+}
+
+.lupe {
+  left: 320px;
+  top: 12px;
+}
+
+.icon {
+  left: 368px;
+  top: 12px;
+}
+
+.serie {
+ width: 410px;
+ height: 510px;
+ position: relative;
+ bottom: 190px;
+ z-index: -1;
+ opacity: 80%;
+}
+
+h1 {
+ font-size: 76px;
+ font-family: cursive;
+ position: relative;
+ margin: 6px;
+ bottom: 8px;
+}
+
+p {
+  font-size: 17px;
+  position: relative;
+  color: white;
+  margin: 8px;
+  bottom: 30px;
+}
+
+h6 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 280px;
+  font-size: 22px;
+  color: white;
+}
+
+button {
+  width: 110px;
+  height: 35px;
+  position: relative;
+  top: 250px ;
+  left: 152px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo, .transmission, .lupe, .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.serie {
+ width: 410px;
+ height: 510px;
+ position: relative;
+ bottom: 195px;
+ z-index: -1;
+ opacity: 80%;
+}
+
+h1 {
+ font-size: 76px;
+ font-family: cursive;
+ position: relative;
+ margin: 6px;
+ bottom: 12px;
+}
+
+p {
+  font-size: 17px;
+  position: relative;
+  color: white;
+  margin: 8px;
+  bottom: 35px;
+}
+
+h6 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 240px;
+  font-size: 22px;
+  color: white;
+}
+
+button {
+  width: 110px;
+  height: 35px;
+  position: relative;
+  top: 210px ;
+  left: 152px;
+}
+
+
+h5 {
+  font-size: 24px;
+  position: relative;
+  bottom: 210px;
+  font-family: Arial;
+}
+
+div-container{
+  overflow: hidden;
+}
+
+div {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  bottom: 210px;
+}
+
+div img {
+  height: 208px ;
+  width: 138px ;
+}
+
+footer-container{
+  overflow: hidden;
+}
+
+footer {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  bottom: 210px;
+}
+
+footer img {
+  height: 208px ;
+  width: 138px ;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+}
